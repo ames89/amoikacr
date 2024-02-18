@@ -36,7 +36,18 @@
 	"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "cd ./amoikacr && yarn install"
+	"postCreateCommand": "cd ./amoikacr && yarn install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"dbaeumer.vscode-eslint",
+				"mhutchie.git-graph",
+				"esbenp.prettier-vscode",
+				"GitHub.vscode-pull-request-github"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
