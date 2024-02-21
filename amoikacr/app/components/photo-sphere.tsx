@@ -23,8 +23,8 @@ export const PhotoSphere = () => {
   return (
     <ReactPhotoSphereViewer
       src={photos as unknown as string}
-      height="100vh"
-      width="100vw"
+      height="100%"
+      width="100%"
       adapter={CubemapAdapter}
       defaultZoomLvl={0}
       plugins={[GyroscopePlugin]}

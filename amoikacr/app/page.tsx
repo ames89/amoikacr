@@ -1,9 +1,8 @@
 import { PhotoSphere } from "./components/photo-sphere";
-import Css from "./page.module.scss";
 
 export default function Page() {
   return (
-    <div className={Css.main}>
+    <div style={{ width: "100%", height: "100%" }}>
       <PhotoSphere />
     </div>
   );
