@@ -10,11 +10,17 @@ import Photos from "./photos.json";
 
 export const PhotoSphere = () => {
   const [photos] = useState(() => {
+    let horizonSrc = [...Photos.horizon];
+    const horizonRes: string[] = [];
+    for (let i = 0; i < 4; i++) {
+      const rand = Math.floor(Math.random() * horizonSrc.length);
+      horizonRes.push(horizonSrc.splice(rand, 1)[0]);
+    }
     return {
-      left: Photos.horizon[Math.floor(Math.random() * Photos.horizon.length)],
-      front: Photos.horizon[Math.floor(Math.random() * Photos.horizon.length)],
-      right: Photos.horizon[Math.floor(Math.random() * Photos.horizon.length)],
-      back: Photos.horizon[Math.floor(Math.random() * Photos.horizon.length)],
+      left: horizonRes[0],
+      front: horizonRes[1],
+      right: horizonRes[2],
+      back: horizonRes[3],
       top: Photos.sky[Math.floor(Math.random() * Photos.sky.length)],
       bottom: Photos.floor[Math.floor(Math.random() * Photos.floor.length)],
     };
