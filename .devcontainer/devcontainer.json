@@ -43,7 +43,9 @@
         "editor.formatOnSave": true,
         "editor.multiCursorModifier": "ctrlCmd",
         "editor.wordWrap": "on",
-        "git.autofetch": true
+        "git.autofetch": true,
+        "git.confirmSync": false,
+        "git.enableSmartCommit": true
       }
     }
   }
