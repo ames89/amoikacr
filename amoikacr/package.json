@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@photo-sphere-viewer/core": "^5.7.1",
     "next": "14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8.56.0",
+    "@types/node": "20.11.19",
+    "@types/react": "18.2.56",
+    "@types/react-dom": "18.2.19",
+    "autoprefixer": "10.0.1",
+    "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
-    "postcss": "^8.4.35",
-    "prettier": "^3.2.5",
-    "sass": "^1.71.0",
-    "typescript": "^5.3.3",
-    "typescript-eslint": "^7.0.1"
+    "postcss": "8.4.35",
+    "prettier": "3.2.5",
+    "react-photo-sphere-viewer": "4.2.1-psv5.6.0",
+    "sass": "1.71.0",
+    "typescript": "5.3.3",
+    "typescript-eslint": "7.0.1"
   }
 }
