@@ -29,6 +29,7 @@ export const PhotoSphere = () => {
       defaultZoomLvl={0}
       /* @ts-ignore */
       plugins={[GyroscopePlugin]}
+      navbar={["zoom", "gyroscope"]}
     />
   );
 };
