@@ -28,7 +28,7 @@ export const PhotoSphere = () => {
       adapter={CubemapAdapter}
       defaultZoomLvl={0}
       /* @ts-ignore */
-      plugins={[GyroscopePlugin, { touchmove: true }]}
+      plugins={[GyroscopePlugin]}
     />
   );
 };
