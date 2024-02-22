@@ -49,14 +49,7 @@ export const PhotoSphere = () => {
       adapter={CubemapAdapter}
       defaultZoomLvl={0}
       plugins={[
-        [
-          AutorotatePlugin,
-          {
-            autorotatePitch: "0deg",
-            autostartDelay: 10,
-            autostartOnIdle: true,
-          },
-        ],
+        AutorotatePlugin,
         GyroscopePlugin,
         [
           MarkersPlugin,
