@@ -165,7 +165,7 @@
   resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/compass-plugin/-/compass-plugin-5.7.1.tgz#72222a4d317e1264bd8125d5f3ef1fdbe605441b"
   integrity sha512-TdomFmvgOjbTHXJPEW3TQhfcIt/CsO4nuZicWNlO2WGYuPkVTWwxR4BM90dYgq2WUqTJHQz/4AOO34pkNup9UQ==
 
-"@photo-sphere-viewer/core@^5.6.0":
+"@photo-sphere-viewer/core@5.7.1", "@photo-sphere-viewer/core@^5.6.0":
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/core/-/core-5.7.1.tgz#3333b11ea397757d15325419f5e88e2f9e351caf"
   integrity sha512-2wwErCpRiCee8mv9k5YAr4itMrAh2DL9dHriaOysS84xRJcmEZBMZXfhTuTFEdBvEq0o8Iv/gKheQvCrbLyv5w==
